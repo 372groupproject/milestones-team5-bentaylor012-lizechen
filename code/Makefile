@@ -1,0 +1,2 @@
+test :
+	icon test.ico

@@ -1,0 +1,18 @@
+1. The Icon Programming Language Third Edition
+http://www2.cs.arizona.edu/icon/books.htm
+
+2. A website that discusses the language in depth
+https://www2.cs.arizona.edu/icon/docs/ipd266.htm
+
+3. Icon Programming Language Reference Summaries
+https://www2.cs.arizona.edu/icon/refernce/ref.htm
+
+4. The Icon-language Mailing List
+https://www2.cs.arizona.edu/icon/mlist.htm
+
+5. Some major projects coded in this language
+https://www2.cs.arizona.edu/icon/docs/ipd266.htm
+http://www.mitchellsoftwareengineering.com/icon/
+
+6. Compiler/Interpreter
+https://www2.cs.arizona.edu/icon/implver.htm
