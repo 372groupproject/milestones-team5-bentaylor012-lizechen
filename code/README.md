@@ -22,9 +22,7 @@ evenList := evenList ||| [1]
 ```
 Then, the value of evenList should be [1]
 #
-### String scanning uses “move(i)” and “n ? expr”，
-### where i represents the step we move at the string,
-### n represents the string, expr represents the function.
+### String scanning uses “move(i)” and “n ? expr”, where i represents the step we move at the string, n represents the string, expr represents the function.
 For example,
 ```
 n ? {
