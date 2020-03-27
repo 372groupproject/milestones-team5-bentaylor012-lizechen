@@ -6,7 +6,7 @@ For example,
 global str, evenList
 ```
 #
-### Using write()/read() to output/input string
+### Using write()/read() to output/input string.
 #
 ### Using := to assign a value to a variable.
 For example,
@@ -30,5 +30,5 @@ n ? {
             if (i % 2 == 0) then evenList := evenList ||| [i]
     } 
 ```
-This program is to find even numbers in a string and add them to a list。
+This program is to find even numbers in a string and add them to a list.
 #
