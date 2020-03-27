@@ -1,4 +1,5 @@
-# Document
+# Document the code snippets
+---
 
 ### Variables should be defined before being used in body.
 For example,
