@@ -1,0 +1,13 @@
+procedure main ()
+    write ("enter a string")
+    str := read()
+    write ("every other letter")
+    i:=0
+    str ? {
+        while s := move(1) do{
+            if i % 2 = 0 then write (s)
+            #write (i)
+            i := i+1
+        }
+    }
+end
