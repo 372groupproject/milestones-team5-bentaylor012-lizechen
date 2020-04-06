@@ -32,19 +32,39 @@ n ? {
 ```
 This program is to find even numbers in a string and add them to a list.
 #
-### There are two main control structures for icon. If/then/else statements and While loops
+### Icons control structures are similar to most other languages
+Conditional control structures involve switches and if statements
 The struction for if statements go "if ... then... (if needed)else...
 Example for if/then/else,
 ```
 if n~=3 then write ("same") 
 else write ("different")
 ```
-While loops are like most languages however you do have to end the condition statement with "do"
+switch cases can be used in times where there maybe a lot of if else statements
+```
+i=2
+case i of{
+0       :write("zero")
+1       :write("one")
+2       :write("two")
+}
+```
+There are 2 main loops in icon the "while" loop and the "until" loop
+while loops acts as expected you just need to add "do" at the end of the condition.
 Example of a while loop in icon,
 ```
 x=1
 while x < 5 do{
         write(x)
         x:=x+1
+}
+```
+until loops are somewhat similar to while loops except that until goes until the expression is met where as a while loop goes until the expression fails.
+```
+x=10
+until x < 5 do {
+        write(x)
+        x:=x-1
+}
 ```
 #
