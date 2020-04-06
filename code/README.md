@@ -33,3 +33,17 @@ n ? {
 This program is to find even numbers in a string and add them to a list.
 #
 ### There are two main control structures for icon. If/then/else statements and While loops
+The struction for if statements go "if ... then... (if needed)else...
+Example for if/then/else,
+```
+if n~=3 then write ("same") 
+else write ("different")
+```
+While loops are like most languages however you do have to end the condition statement with "do"
+Example of a while loop in icon,
+```
+x=1
+while x < 5 do
+        write(x)
+```
+#
