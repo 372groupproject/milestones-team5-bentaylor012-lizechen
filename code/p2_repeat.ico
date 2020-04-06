@@ -1,0 +1,11 @@
+global i
+procedure main ()
+    write("Print 0..15")
+    i := 0
+    repeat printNum(i)
+end
+
+procedure printNum()
+    if i <= 15 then write(i) & i := i + 1
+    else exit()
+end

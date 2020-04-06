@@ -1,0 +1,12 @@
+global i
+procedure main ()
+    write("Print 0..10")
+    i := 0
+    testNext()
+end
+
+procedure testNext()
+    until i > 10 do {
+        write(i) & i := i + 1
+    }
+end

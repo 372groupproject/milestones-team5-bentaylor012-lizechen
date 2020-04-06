@@ -1,3 +1,4 @@
+global str, i ,s
 procedure main ()
     write ("enter a string")
     str := read()
