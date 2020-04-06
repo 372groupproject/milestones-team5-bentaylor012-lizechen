@@ -1,2 +1,2 @@
-test : icon_if.ico
-	icon icon_if.ico
+test : p2_if.ico
+	icon p2_if.ico
