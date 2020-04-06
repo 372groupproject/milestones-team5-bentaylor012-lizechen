@@ -1,6 +1,0 @@
-global n
-procedure main ()
-    write("choose a number")
-    n:=read()
-    if n%2 = 1 then write ("odd") else write ("even")
-end

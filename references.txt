@@ -1,5 +1,6 @@
 1. The Icon Programming Language Third Edition
 http://www2.cs.arizona.edu/icon/books.htm
+https://tratt.net/laurie/research/pubs/html/tratt__experiences_with_an_icon_like_expression_evaluation_system/
 
 2. A website that discusses the language in depth
 https://www2.cs.arizona.edu/icon/docs/ipd266.htm
