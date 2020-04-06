@@ -5,8 +5,8 @@ procedure main ()
     x := ?10
     guess := 0
     while guess ~= x do {
-        if guess ~= x then write ("thats wrong! Try agian.")
         guess := read()
+        if guess ~= x then write ("thats wrong! Try agian.")
     }
     write("that is correct! The number is ",x)
 end
