@@ -1,0 +1,12 @@
+global i, n
+procedure main ()
+    i := read()
+    if numeric(i) then testCase(1) else testCase(2) 
+end
+
+procedure testCase(n)
+    case n=1 of{
+        write("it is numeric") : n}
+    case n=2 of{
+        write("it is not numeric") : n}
+end

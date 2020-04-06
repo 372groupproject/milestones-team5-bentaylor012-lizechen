@@ -2,10 +2,10 @@ global i
 procedure main ()
     write("Print 0..10")
     i := 0
-    testNext()
+    testUntil()
 end
 
-procedure testNext()
+procedure testUntil()
     until i > 10 do {
         write(i) & i := i + 1
     }
