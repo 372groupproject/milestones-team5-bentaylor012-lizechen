@@ -32,3 +32,4 @@ n ? {
 ```
 This program is to find even numbers in a string and add them to a list.
 #
+### There are two main control structures for icon. If/then/else statements and While loops
