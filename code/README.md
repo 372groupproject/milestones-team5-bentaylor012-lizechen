@@ -43,7 +43,8 @@ While loops are like most languages however you do have to end the condition sta
 Example of a while loop in icon,
 ```
 x=1
-while x < 5 do
+while x < 5 do{
         write(x)
+        x:=x+1
 ```
 #
