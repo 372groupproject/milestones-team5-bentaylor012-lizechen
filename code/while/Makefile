@@ -1,3 +1,3 @@
 
-test : icon_while.ico
-	icon icon_while.ico
+test : p2_while.ico
+	icon p2_while.ico
