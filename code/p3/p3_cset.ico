@@ -1,0 +1,11 @@
+global x,y,z
+
+procedure main()
+    x:=cset("hello world")
+    x ?{
+    if tab(2) then
+        write(tab(0))
+    }
+    z:=string(x)
+    write("cset contents", z)
+end
