@@ -1,3 +1,5 @@
+p3_frequency : p3_frequency.ico
+	icon p3_frequency.ico
 p3_null : p3_null.ico
 	icon p3_null.ico
 p3_int : p3_int.ico

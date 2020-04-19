@@ -1,0 +1,11 @@
+# count the occurrence of a word in a string 
+global Node,x,help,target,i
+procedure main()
+    target := "The execution of an Icon program may be terminated for several reasons: completion, programmer-specified termination, or error."
+    Node :=table()
+    every i := 0 to *target do
+        if member(Node,target[i]) then Node[target[i]]+:=1 
+        else Node[target[i]]:=1  
+    every x := key(Node) do
+        write("Node["||x||"] = "||Node[x])
+end
