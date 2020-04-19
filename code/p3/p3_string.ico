@@ -1,8 +1,0 @@
-global x,y,z
-
-procedure main()
-    x:="hello world"
-    x:=x||" good to see you "
-    x ||:= read()
-    write(x)
-end

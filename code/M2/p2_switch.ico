@@ -1,5 +1,6 @@
 global i, n
 procedure main ()
+    write("Check if the input is numeric")
     i := read()
     if numeric(i) then testCase(1) else testCase(2) 
 end

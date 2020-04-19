@@ -1,0 +1,9 @@
+global x,y,z
+
+procedure main()
+    
+    x:=set([1,2,3])
+    y:=insert(x, 4)
+    write(type(y))
+    
+end

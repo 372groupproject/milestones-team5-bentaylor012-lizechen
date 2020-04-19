@@ -1,0 +1,17 @@
+global x,y,z,i
+
+procedure main()
+    x:=[5,3,2]
+    x:= x||| [1,2,3]
+    i:=0
+    while i <= *x do{
+         write(x[i])
+         i+:=1
+    }
+    x[1] := 15
+    every i:= 0 to *x do{
+         write(x[i])
+         i+:=1
+    }
+        
+end

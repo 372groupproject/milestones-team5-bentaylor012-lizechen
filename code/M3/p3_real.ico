@@ -1,0 +1,10 @@
+global x,y,z
+
+procedure main()
+    write("enter x real: ")
+    x:=read()
+    write("enter y real: ")
+    y:=read()
+    z:=x+y
+    write("x+y= ",z)
+end

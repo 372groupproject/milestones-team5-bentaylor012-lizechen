@@ -1,0 +1,21 @@
+# Get suggestions from Dr. Sturtivant: add seed to make random work
+global guess,x,s,n
+procedure seed()
+     s := &clock
+     n := integer( s[7:0]||s[4:6]||s[1:3])
+     every 1 to n % 37 do ?1
+     &random := (&random * n)%(2^31-1)
+end
+
+procedure main ()
+    seed()
+    write("guess the number 1-10!")
+    x := ?10
+    guess := 0
+    while guess ~= x do {
+        guess := read()
+        if not numeric(guess) then guess:=0
+        if guess ~= x then write ("thats wrong! Try agian.")
+    }
+    write("that is correct! The number is ",x)
+end
