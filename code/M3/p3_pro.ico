@@ -1,0 +1,8 @@
+global mult,i,j,fun1
+
+procedure main()
+    mult := proc("*", 2)
+    fun1 := proc("write", 1)
+    write(mult(2, 3))
+    fun1("Hello World!")
+end

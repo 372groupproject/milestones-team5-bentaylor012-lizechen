@@ -1,12 +1,13 @@
-global x,y,z
+global x1,x2,y1,y2
 
 procedure main()
-    x:=5
-    y:=1
-    z:=x+y
-    z+:=3
-    z>:=x
-    write(z)
-    x:=:y
-    write("x = ",x," y = ",y)
+    x1 := 1.4
+    x2 := 2.9
+    y1 := integer(x1)
+    y2 := integer(x2)
+    write("x1 = " || x1)
+    write("x2 = " || x2)
+    write("integer(x1) = " || y1)
+    write("integer(x2) = " || y2)
+    write("type(integer(x1)) = " || type(y1))
 end

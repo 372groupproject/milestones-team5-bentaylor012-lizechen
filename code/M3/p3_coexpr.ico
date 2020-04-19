@@ -1,14 +1,18 @@
-global x
+global x,label
 
 procedure main()
-    x:= create(1|2|3)
-    write(@x)
-    write(@x, " number of results ", *x)
+    write("***create('red'|'green'|'blue')***")
+    x:= create("red"|"green"|"blue")
+    write("activation times = " || *x)
+    write("@x = "||@x || "   (current times = " || *x||")")
+    write("@x = "||@x || " (current times = " || *x||")")
+    write("***reset this co-expression via x:=^x***")
     #reset the expression
     x:=^x
-    write(@x, " number of results ", *x)
+    write("@x = "||@x || "   (current times = " || *x||")")
     #example taken out of "the icon programming language" for demonstration
     label:=create("L" || seq())
+    # every call of label() produces a new label
     write(@label)
     write(@label)
     write(@label)

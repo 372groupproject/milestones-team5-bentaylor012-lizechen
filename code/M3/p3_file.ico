@@ -1,0 +1,25 @@
+global fileName,line,newLine,cur
+
+procedure main()
+    write("***Firstly, create a file named 'word.txt'***")
+    fileName := open("word.txt","crw")
+    write("***Secondly, output things in this file***")
+    output(fileName)
+    write("***Thirdly, write text unless input 'stop'***")
+    newLine := read()
+    repeat{
+        if newLine === "stop" then break else write(fileName,newLine)
+        newLine := read() 
+    }
+    write("***Thirdly, change file's name to 'this.txt'***")
+    close(fileName)
+    rename("word.txt","this.txt")
+    write("***Finally, output things in 'this.txt'***")
+    cur := open("this.txt","r")
+    output(cur) 
+end
+
+procedure output(fileName)
+    while line := read(fileName) do
+        write(line)
+end

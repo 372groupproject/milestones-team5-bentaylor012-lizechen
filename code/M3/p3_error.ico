@@ -1,0 +1,6 @@
+#run-time error
+
+procedure main()
+    write(1/0)
+end
+

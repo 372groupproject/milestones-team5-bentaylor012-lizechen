@@ -1,10 +1,14 @@
 global x,y,z
 
 procedure main()
-    write("enter x real: ")
-    x:=read()
-    write("enter y real: ")
-    y:=read()
-    z:=x+y
-    write("x+y= ",z)
+    x := 1
+    y := 2.5
+    write("x = "||x)
+    write("y = "||y)
+    write("type(x) = " || type(x))
+    write("type(y) = " || type(y))
+    z := x+y
+    write("type(x+y) = "||type(z))
+    write("real(x) = "|| real(x))
+    write("type(real(x)) = " || type(real(x)))
 end

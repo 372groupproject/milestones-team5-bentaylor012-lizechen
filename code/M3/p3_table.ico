@@ -1,0 +1,11 @@
+global Node,x
+
+procedure main()
+    Node := table()
+    Node["Csc110"] := "Python"
+    Node["Csc252"] := "MIPS"
+    Node["Csc210"] := "Java"
+    Node["Csc352"] := "C"
+    every x := key(Node) do
+        write("Node["||x||"] = "||Node[x])
+end

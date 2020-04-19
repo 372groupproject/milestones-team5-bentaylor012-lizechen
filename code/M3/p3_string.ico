@@ -1,8 +1,10 @@
-global x,y,z
+global x,input
 
 procedure main()
-    x:="hello world"
-    x:=x||" good to see you "
-    x ||:= read()
-    write(x)
+    x:="hello"
+    write("input anything below:")
+    input :=read()
+    write("type("||input||") = "||type(input))
+    write("Let x = '"||x||"'")
+    write("x || input = " || (x||input))
 end

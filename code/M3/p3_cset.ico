@@ -1,11 +1,17 @@
-global x,y,z
+global x1,x2,y1,y2
 
 procedure main()
-    x:=cset("hello world")
-    x ?{
-    if tab(2) then
-        write(tab(0))
-    }
-    z:=string(x)
-    write("cset contents", z)
+    write("***cset is like an ordered set in java***")
+    x1:="abc"
+    y1:=cset(x1)  
+    write("x1 = " || x1)
+    x2:="abd"
+    write("x2 = " || x2)
+    write("y1 = cset(x1) = " || y1)
+    y2:=cset(x2)
+    write("y2 = cset(x2) = " || y2)
+    write("y1 -- y2 = "||(y1--y2) || " (show difference1)")
+    write("y2 -- y1 = "||(y2--y1) || " (show difference2)")
+    write("y1 ++ y2 = "||(y1++y2)|| " (show union)")
+    write("y1 ** y2 = "||(y1**y2)|| " (show intersection)")
 end

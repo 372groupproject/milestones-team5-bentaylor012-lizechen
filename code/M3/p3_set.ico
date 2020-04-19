@@ -1,9 +1,13 @@
 global x,y,z
 
 procedure main()
-    
+    write("Let x be [1,2,3]")
     x:=set([1,2,3])
+    write("Then assign insert(x, 4) to y")
     y:=insert(x, 4)
     write(type(y))
-    
+    write("Produces itself if it succeeds")
+    write("member(x,4) = ",member(x,4))
+    write("member(y,4) = ",member(y,4))
+    write("Thus, set is mutable")
 end

@@ -1,0 +1,11 @@
+
+
+procedure main()
+    local x
+    x:=1
+    write("x = ",x)
+    write("assigns the null value to x")
+    x := &null
+    write("x = ",x)
+end
+
