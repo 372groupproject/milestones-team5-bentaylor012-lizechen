@@ -1,5 +1,6 @@
 
 procedure main()
+    local numbers
     write("Input a large number (only numeric):")
     numbers := read()   
     every write(!printEven(numbers))
@@ -7,6 +8,7 @@ procedure main()
 end
 
 procedure printEven(n)
+    local evenList,i
     evenList := []
     n ? {
         while i := move(1) do
@@ -17,6 +19,7 @@ procedure printEven(n)
 end
 
 procedure printOdd(n)
+    local oddList,i
     oddList := []
     n ? {
         while i := move(1) do

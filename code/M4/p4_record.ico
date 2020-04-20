@@ -1,0 +1,17 @@
+global one,two,three
+record student(name,age,gender,id)
+procedure main()
+    one:=student("Alice",18,"F",123)
+    two:=student("Ben",20,"M",124)
+    three:=student("Mary",19,"F",125)
+    getInfo(one)
+    getInfo(two)
+    getInfo(three)
+end
+
+procedure getInfo(n)
+    write("name => ",n.name)
+    write("age => ",n.age)
+    write("gender => ",n.gender)
+    write("id => ",n.id)
+end

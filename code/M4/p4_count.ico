@@ -1,0 +1,9 @@
+
+record data(value,data)
+
+procedure main()
+   
+end
+
+
+    
