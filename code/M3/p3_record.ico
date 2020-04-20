@@ -1,15 +1,17 @@
-global x
-
+global one,two,three
+record student(name,age,gender,id)
 procedure main()
-    x:=1
-    write("x = ",x)
-    change(x)
-    write("***change***")
-    write("x = ",x)
+    one:=student("Alice",18,"F",123)
+    two:=student("Ben",20,"M",124)
+    three:=student("Mary",19,"F",125)
+    getInfo(one)
+    getInfo(two)
+    getInfo(three)
 end
 
-procedure change()
-    local y
-    y := 3
-    x := y
+procedure getInfo(n)
+    write("name => ",n.name)
+    write("age => ",n.age)
+    write("gender => ",n.gender)
+    write("id => ",n.id)
 end
