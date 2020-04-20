@@ -1,0 +1,8 @@
+Our program is going to...
+
+We expect the program to have about 2 files total and a total of 5 functions
+
+We expect the program to be around 100-150 lines of code
+
+We think that the program will be a good demostration of most the features of our language because...
+
