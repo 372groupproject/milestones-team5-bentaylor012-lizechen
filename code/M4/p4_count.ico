@@ -1,9 +1,57 @@
+#Purpose: This project reads in a sequence of integers and 
+# counts the number of times each integer value appears in 
+# the sequence by using linked list
+# It assumes that the input are all integers.
 
-record data(value,data)
+record data(value,node)
+global head,n
 
 procedure main()
-   
+    write("** This project reads in a sequence of integers and ")
+    write("** counts the number of times each integer value appears ")
+    write("** in the sequence by using linked list.")
+    head := &null
+    read_int()
+    sort_list()
+    get_times()
 end
 
+procedure read_int()
+    local n,temp
+    n := read()    
+    while n~== "" do{
+        if (not numeric(n)) then write("data is not clean") & exit()
+        temp := data(n,head)
+        head := temp
+        n := read() 
+    }
+end
+
+procedure sort_list()
+    local temp1,temp2,val
+    temp1 := head
+    while temp1 ~=== &null do{
+        temp2 := temp1.node
+        while temp2 ~=== &null do{
+            if temp1.value >= temp2.value
+            then val := temp1.value & temp1.value := temp2.value & temp2.value := val
+            temp2 := temp2.node
+        }
+        temp1 := temp1.node
+    }
+end
+
+procedure get_times()
+    local times
+    times := 1
+    while head ~=== &null do{
+        if head.node === &null
+        then write(head.value || " appears " || times || " times") & times := 1 & break
+        if head.value == head.node.value then times +:=1
+        else write(head.value || " appears " || times || " times") & times := 1
+        head := head.node      
+    }
+
+end
 
     
