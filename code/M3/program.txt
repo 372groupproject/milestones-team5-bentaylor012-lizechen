@@ -1,7 +1,0 @@
-Our program is going to use a tree structure in order to find the shortest path using linked lists and recursion.
-We expect the program to have about 2 files total and a total of 3-5 functions
-
-We expect the program to be around 100-150 lines of code
-
-We think that the program will be a good demostration of most the features of our language because this project is simalar to one you can do in c. This project would implement using list as well as other data types as well as procedure calls. It also would implent logic that was demonstrated in class but will be implemented using icon.
-
