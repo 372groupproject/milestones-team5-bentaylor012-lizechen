@@ -1,6 +1,10 @@
 #Purpose: 
 
+$include "help.ico"
 
 procedure main()
-    write("nothing")
+    local temp
+    help()
+    temp := Student("Ben",19)
+    write(temp.name," ",temp.age)
 end
