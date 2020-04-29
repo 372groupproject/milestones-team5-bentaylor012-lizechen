@@ -1,0 +1,75 @@
+# Purpose: Dijkstra algorithm
+#
+
+$define MAX 9999999999999
+
+procedure dijkstra(ptr1, ptr2)
+    local ptr, value, temp, help
+    ptr := head
+    while (ptr ~=== &null) do {
+        # set the minDist field to infinity
+        ptr.minDist := MAX
+        ptr.marked := 0
+        ptr := ptr.next1
+    }
+    ptr1.minDist := 0
+    # repeat until no new vertex can be marked
+    while (allMarked() ~= 1) do {
+        temp := getVertexWithMinDist();
+        # mark it
+        temp.marked := 1
+        help := temp.edges
+        while (help ~=== &null) do {
+            value := help.dist + temp.minDist
+            # compare
+            if (value < help.to2.minDist)
+            then help.to2.minDist := value 
+            help := help.next2
+        } 
+    }
+    return ptr2.minDist
+end
+
+
+# Purpose: find the vertex which has the minDist and return it
+#
+procedure getVertexWithMinDist()
+    local ptr, target, min
+    ptr := head
+    while (ptr ~=== &null) do {
+        # it should be unmarked
+        if (ptr.marked = 0) then {
+            min := ptr.minDist
+            target := ptr
+            break
+        }
+        ptr := ptr.next1
+    }
+    ptr := head
+    while (ptr ~=== &null) do{
+        # it should be unmarked
+        if (ptr.marked = 0 & ptr.minDist < min)
+        then {
+            min := ptr.minDist
+            target := ptr
+        }
+        ptr := ptr.next1
+    }
+    return target
+end
+
+
+# Purpose: check if all the nodes in the linked list are marked
+#
+procedure allMarked()
+	local ptr
+	ptr := head
+	while (ptr ~=== &null) do{
+		if (ptr.marked = 0) then return 0
+		ptr := ptr.next1;
+	}
+    # return 1 if all marked
+	return 1;
+end
+
+

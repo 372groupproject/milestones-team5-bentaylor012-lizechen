@@ -1,7 +1,0 @@
-#Purpose: 
-
-record Student(name,age)
-
-procedure help()
-    write("nothing")
-end

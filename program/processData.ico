@@ -1,0 +1,81 @@
+# Purpose: Process each line from the file, check if it is valid,
+#          then add nodes, edges into the linkedlist based on it.
+#
+
+record node(name,minDist,marked,edges,next1)
+record e(dist,to2,next2)
+
+
+# Purpose: store the words into a list
+#
+procedure process(line)
+    local wordlist, dist, ptr1, ptr2
+    wordlist := []
+    line ? { 
+        while tab(upto(&letters ++ &digits)) do
+            put(wordlist, tab(many(&letters ++ &digits)))
+    }
+    if (*wordlist ~= 3) then write("Illegal argument.") & exit()
+    if (not numeric(wordlist[3]))
+    then write("Illegal distance.") & exit() else dist := wordlist[3]
+    ptr1 := addNode(wordlist[1])
+    ptr2 := addNode(wordlist[2])
+    if (addEdge(ptr1, ptr2, numeric(dist)) = 1) 
+    then write("Repeat Edge.") & exit()
+    return head
+end
+
+
+# Purpose: add an edge from A to B, 
+#          and add an identical edge from B to A
+# It assues that the input nodes were already set in the linked list 
+# and dist is non-negative integer 
+#
+procedure addEdge(ptr1, ptr2, dist)
+    local newEdge1, newEdge2, help
+    newEdge1 := e(dist, ptr2, &null)
+    if (ptr1.edges === &null) then ptr1.edges := newEdge1
+    else {
+        help := ptr1.edges
+        if (help.to2.name == ptr2.name) then return 1
+        while (help.next2 ~=== &null) do {
+            help := help.next2
+            if (help.to2.name == ptr2.name) then return 1
+        }
+        help.next2 := newEdge1
+    }
+    newEdge2 := e(dist, ptr1, &null)
+    # add an identical edge
+    if (ptr2.edges === &null) then ptr2.edges := newEdge2
+    else {
+        help := ptr2.edges
+        while (help.next2 ~=== &null) do {
+            help := help.next2
+        }
+        help.next2 := newEdge2
+    }
+    # no error found
+    return 0 
+end
+
+
+# Purpose: add the node into the linkedlist
+#
+procedure addNode(name)
+    local ptr, flag, new
+    flag := 0
+    ptr := head
+    while ptr ~=== &null do{
+        # check if the node was already added
+        if ptr.name == name then flag := 1 & break
+        ptr := ptr.next1
+    }
+    if flag = 1 then return ptr
+    # insert the new node at the beginning of the linkedlist
+    new := node(name,&null,&null,&null,head)
+    head := new
+    return head  
+end
+
+
+
