@@ -1,0 +1,13 @@
+# GOAL-DIRECTED EVALUATION
+
+procedure main()
+    local s1, s2,s3
+    s1 := ","
+    s2 := "1, 3. 8. 6. 7"
+    s3 := "1, 3. 8. 6, 7"
+    write("s1 = ",s1)
+    write("s2 = ",s2)
+    write("s3 = ",s3)
+    if find(s1, s2) > 5 then write("There is a comma after position 5th in s2.") else write("There is no comma before 5th in s2.")
+    if find(s1, s3) > 5 then write("There is a comma after position 5th in s3.") else write("There is no comma before 5th in s3.")
+end

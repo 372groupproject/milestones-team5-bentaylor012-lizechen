@@ -1,0 +1,11 @@
+# EXCHANGING
+
+procedure main()
+    local s1,s2
+    s1 := 23
+    s2 := 39
+    write("s1 = ",s1," s2 = ",s2)
+    write("**exchanging**")
+    s1 :=: s2
+    write("s1 = ",s1," s2 = ",s2)
+end

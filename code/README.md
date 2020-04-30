@@ -98,4 +98,56 @@ In p4_count.ico, we used **procedure** and **record** as subprograms to help the
 
 ## Milestone 5: End
 
+### (1) GOAL-DIRECTED EVALUATION'
 
+Usage:
+```
+if find(target, str) > num then ... else ... 
+```
+It is used to check if there is a target after num(th) position in str.
+
+
+### (2) EXCHANGING
+
+Usage:
+```
+s1 :=: s2
+```
+It will exchange the value of s1 and s2.
+
+In this case, we don't need to use a new variable to store the temp value.
+
+### (3) TRACE
+
+Usage:
+```
+&trace := n 
+```
+where n represents the times you want to trace.
+
+The output is listed below
+
+```
+$ make p5_trace
+icon p5_trace.ico
+p5_trace.ico :    6  | fib(5)
+p5_trace.ico :   12  | | fib(4)
+p5_trace.ico :   12  | | | fib(3)
+p5_trace.ico :   12  | | | | fib(2)
+p5_trace.ico :   12  | | | | | fib(1)
+p5_trace.ico :   11  | | | | | fib returned 1
+p5_trace.ico :   12  | | | | | fib(0)
+p5_trace.ico :   11  | | | | | fib returned 0
+p5_trace.ico :   12  | | | | fib returned 1
+p5_trace.ico :   12  | | | | fib(1)
+p5_trace.ico :   11  | | | | fib returned 1
+p5_trace.ico :   12  | | | fib returned 2
+p5_trace.ico :   12  | | | fib(2)
+p5_trace.ico :   12  | | | | fib(1)
+p5_trace.ico :   11  | | | | fib returned 1
+p5_trace.ico :   12  | | | | fib(0)
+
+... ...
+```
+
+#END

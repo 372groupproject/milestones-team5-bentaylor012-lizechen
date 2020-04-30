@@ -1,0 +1,13 @@
+# TRACE
+
+procedure main()
+    local n
+    &trace := 30
+    write(fib(5))
+end
+
+
+procedure fib(n) 
+    if (n <= 1) then return n 
+    return fib(n - 1) + fib(n - 2) 
+end
