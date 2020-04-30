@@ -11,7 +11,9 @@ Run the project by typing "make" in this directory.
 ### 1.2. icont *.icn
 
 If we want to use **icont** command, we just need to modify all \*.ico to \*.icn.
+
 Also, remember to modify **$include "\*.ico"** to **$include "\*.icn"** in program.icn
+
 Then run command "icont program.icn", and an executable file will be built.
 
 ## 2. Purpose
@@ -26,6 +28,7 @@ Our goal is to compute the shortest distance between two cities via Dijkstra's a
 name1 name2 distance
 ```
 where **name1** and **name2** are strings and **distance** is a non-negative integer.
+
 e.g. 
 ```
 tucson albuquerque 318
@@ -62,12 +65,15 @@ There are three .ico files named **program.ico**, **processData.ico**, **dijkstr
 ### 3.2. Functions
 
 (1) **program.ico**: the main program which inputs and outputs.
+
 (2) **processData.ico**: build the linkedlist based on the inputs.
+
 (3) **dijkstra.ico**: apply the algorithm.
 
 ### 3.3. Shining Points
 
 (1) string-scanning: the shortcut to extract the useful elements in a string
+
 (2) avoid memory allocation: more efficient than C programming language
 
 
