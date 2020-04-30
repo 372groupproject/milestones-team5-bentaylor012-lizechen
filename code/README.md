@@ -1,40 +1,33 @@
 # Document the code snippets
 
-## Menu
+## 1. Menu
 
-| Milestone 1   | Introduction  |
-| ------------- | ------------- |
-| test.ico      | default       |
-| Makefile      |               |
+| **Milestone 1**   | **Introduction**       | p3_real.ico      |               |
+| -------------     | -------------          | p3_set.ico       |               |
+| test.ico          | default                | p3_table.ico     |               |
+| Makefile          |                        | p3_cset.ico      |               |
+|                   |                        | p3_file.ico      |               |
+| **Milestone 2**   | **Control Structures** | p3_list.ico      |               |
+| -------------     | -------------          | p3_pro.ico       |               |
+| p2_random.ico     | default                | p3_record.ico    |               |
+| p2_if.ico         |                        | p3_string.ico    |               |
+| p2_random.ico     |                        | Makefile         |               |
+| p2_repeat.ico     |                        |                  |               |
+| p2_switch.ico     |                        | **Milestone 4**  | **Subprogram**|
+| p2_until.ico      |                        | -------------    | ------------- |
+| p2_while.ico      |                        | p4_count.ico     | default       |
+| Makefile          |                        | p4_procedure.ico |               |
+|                   |                        | p4_record.ico    |               |
+| **Milestone 3**   | **Data Types**         | Makefile         |               |
+| -------------     | -------------          |                  |               |
+| p3_frequency.ico  | default                | **Milestone 5**  |               |
+| p3_coexpr.ico     |                        |                  |               |
+| p3_error.ico      |                        |                  |               |
+| p3_int.ico        |                        |                  |               |
+| p3_null.ico       |                        |                  |               |
 
-| Milestone 2    | Control Structures |
-| -------------  | ------------- |
-| p2_random.ico  | default       |
-| p2_if.ico      |               |
-| p2_random.ico  |               |
-| p2_repeat.ico  |               |
-| p2_switch.ico  |               |
-| p2_until.ico   |               |
-| p2_while.ico   |               |
-| Makefile       |               |
 
-| Milestone 3    | Data Types    |                |               |
-| -------------  | ------------- | -------------  | ------------- |
-| p3_frequency.ico | default |                |               |
-| p3_coexpr.ico    |         | p3_cset.ico    |               |
-| p3_error.ico     |         | p3_file.ico    |               |
-| p3_int.ico       |         | p3_list.ico    |               |
-| p3_null.ico      |         | p3_pro.ico     |               |
-| p3_real.ico      |         | p3_record.ico  |               |
-| p3_set.ico       |         | p3_string.ico  |               |
-| p3_table.ico     |         | Makefile       |               |
 
-| Milestone 4      | Subprogram    |
-| -------------    | ------------- |
-| p4_count.ico     | default       |
-| p4_procedure.ico |               |
-| p4_record.ico    |               |
-| Makefile         |               |
 
 
 ## Milestone 1
