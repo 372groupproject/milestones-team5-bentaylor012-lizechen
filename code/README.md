@@ -77,8 +77,11 @@ until x < 5 do {
 ## Milestone 3: Data Types
 
 ### Totally, there are 12 types.
-
-
+|Types|   |    |    |
+|----|----|----|----|
+|null(n)    |     string(s) | co-expression(C) | table(T)|
+|integer(i)  |    cset(c)  |  procedure(p)    |  set(S)|
+|real(r)    |     file(f)   | list(L)         |  record types(R)|
 
 
 
