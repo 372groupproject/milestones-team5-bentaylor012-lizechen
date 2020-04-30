@@ -8,14 +8,18 @@ For example,
 global str, evenList
 ```
 #
+
 ### Using write()/read() to output/input string.
+
 #
+
 ### Using := to assign a value to a variable.
 For example,
 ```
 str := "Welcome to icon language"
 ```
 #
+
 ### Using L1 ||| L2 to do list concatenation.
 For example,
 ```
@@ -24,6 +28,7 @@ evenList := evenList ||| [1]
 ```
 Then, the value of evenList should be [1]
 #
+
 ### String scanning uses “move(i)” and “n ? expr”, where i represents the step we move at the string, n represents the string, expr represents the function.
 For example,
 ```
@@ -78,10 +83,15 @@ until x < 5 do {
 
 ### Totally, there are 12 types.
 |Types|   |    |    |
-|----|----|----|----|
+| :---: | :---: | :---: | :---: |
 |null(n)    |     string(s) | co-expression(C) | table(T)|
 |integer(i)  |    cset(c)  |  procedure(p)    |  set(S)|
 |real(r)    |     file(f)   | list(L)         |  record types(R)|
+
+## Milestone 4: Subprogram
+
+###
+
 
 
 
