@@ -1,0 +1,12 @@
+Script (loosely):
+Are you tired of working with a low level language, having to type more things than you think you have to just to get a concept done?
+Well look no further because we are here to introduce you to a program language developed straight out of our back yard. 
+Icon.
+In this video we are going to show you the things that make icon, icon Starting with the simplest features and then rapidly shooting you into the more interesting concepts that you really want to learn.
+First think of C, now think of C where you don’t have to add many simple features because it was already done for you. 
+Basic half: For beginners as well as experienced programmers the things that make icon a good language to pick up and learn are 
+-the typing of variable does not initially get declared it decides what variable it is based on the operations that it goes through, it also has a very simple input and output style , in fact the overall style and structure of the language is very simple to pick up and quick to type out.
+The main control structures in icon are loops and if statements. If has statements are simply laid out as so if (something) then (do something) if you want to use an else you can. But after about three its better to use a switch which uses the form case (expression) of. The other main control structures are the loops most commonly while. Which behave like most other languages.
+On to the main parts of icon that make it unique as well as very interesting. The first being string manipulation and comprehension. As can already be seen in the video with the read, write, and concatenation string manipulation is very powerful as well as simple yet optimal in icon. 
+
+Goal directed evaluation: the other key concept that sets icon apart from other languages is that it uses goal directed evaluation. Simply put this can allow you to do a<b<c instead of having to do a<b && b<c. This allows for code to be shortened and quicker to type out. 
