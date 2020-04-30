@@ -1,32 +1,6 @@
 # Document the code snippets
 
-## 1. Menu
-
-| **Milestone 1**   | **Introduction**       | **Milestone 4**  | **Subprogram**|
-| ----------------  | ----------------       | ---------------- | ------------- |  
-| test.ico          | default                | p4_count.ico     | default       |
-| Makefile          |                        | p4_procedure.ico |               |
-|                   |                        | p4_record.ico    |               |
-| **Milestone 2**   | **Control Structures** | Makefile         |               |
-| p2_random.ico     | default                |                  |               |
-| p2_if.ico         |                        | **Milestone 5**  |               |
-| p2_random.ico     |                        |                  |               |
-| p2_repeat.ico     |                        |                  |               |
-| p2_switch.ico     |                        |                  |               |
-| p2_until.ico      |                        |                  |               |
-| p2_while.ico      |                        |                  |               |
-| Makefile          |                        |                  |               |
-|                   |                        |                  |               |
-| **Milestone 3**   | **Data Types**         | p3_table.ico     |               |
-| p3_frequency.ico  | default                | p3_cset.ico      |               |
-| p3_coexpr.ico     |                        | p3_file.ico      |               |
-| p3_error.ico      |                        | p3_list.ico      |               |
-| p3_int.ico        |                        | p3_pro.ico       |               |
-| p3_null.ico       |                        | p3_record.ico    |               |
-| p3_real.ico       |                        | p3_string.ico    |               |
-| p3_set.ico        |                        | Makefile         |               |
-
-## Milestone 1
+## Milestone 1: Introduction
 
 ### Variables should be defined before being used in body.
 For example,
@@ -60,6 +34,9 @@ n ? {
 ```
 This program is to find even numbers in a string and add them to a list.
 #
+
+## Milestone 2: Control Structures
+
 ### Icons control structures are similar to most other languages
 Conditional control structures involve switches and if statements
 The struction for if statements go "if ... then... (if needed)else...
@@ -96,3 +73,12 @@ until x < 5 do {
 }
 ```
 #
+
+## Milestone 3: Data Types
+
+### Totally, there are 12 types.
+
+
+
+
+
