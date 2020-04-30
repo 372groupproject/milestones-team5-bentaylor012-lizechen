@@ -6,7 +6,7 @@ There are two ways to running icon files.
 
 ### (1) **icon \*.ico** (Use this one in our repository)
 
-Run the project by typing "make" in this directory.
+Run the project by typing "make" in the corresponding directory.
 
 ### (2) **icont \*.icn**
 
