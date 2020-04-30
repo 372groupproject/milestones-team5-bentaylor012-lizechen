@@ -38,7 +38,6 @@ n ? {
     } 
 ```
 This program is to find even numbers in a string and add them to a list.
-#
 
 ## Milestone 2: Control Structures
 
@@ -77,7 +76,6 @@ until x < 5 do {
         x:=x-1
 }
 ```
-#
 
 ## Milestone 3: Data Types
 
@@ -88,10 +86,16 @@ until x < 5 do {
 |integer(i)  |    cset(c)  |  procedure(p)    |  set(S)|
 |real(r)    |     file(f)   | list(L)         |  record types(R)|
 
+The code snippets in M3 show the characters and functions of each type. 
+
 ## Milestone 4: Subprogram
 
-###
+### (1) Use $include to link the functions in other icon files
 
+### (2) Use record as the struct in C programming language
 
+In p4_count.ico, we used **procedure** and **record** as subprograms to help the main program to process or store the data.
+
+## Milestone 5: End
 
 
